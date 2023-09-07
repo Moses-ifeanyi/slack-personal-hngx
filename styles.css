@@ -34,3 +34,11 @@ a{
     text-decoration: none;
     background-color: transparent;
 }
+
+@media (max-width: 768px) {
+    .container {
+      width: 90%; 
+      height: auto; 
+      padding: 0.5rem;
+    }
+}
