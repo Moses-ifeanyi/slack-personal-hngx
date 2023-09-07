@@ -1,4 +1,4 @@
-let updateDayOfTheWeek = () => {
+const updateDayOfTheWeek = () => {
     const weekDays = document.getElementById('dayOfTheWeek');
     const dayOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const currentDate = new Date();
@@ -19,8 +19,5 @@ let updateDayOfTheWeek = () => {
     currentUTCTimeElement.textContent = `Current UTC Time: ${currentUTCTime}`;
   }
 
-  updateCurrentUTCTime();
-
-
+updateCurrentUTCTime();
 updateDayOfTheWeek();
-updateUTCTime();

@@ -15,4 +15,5 @@ div{
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-weight: bolder;
+    margin: 1rem;
 }
