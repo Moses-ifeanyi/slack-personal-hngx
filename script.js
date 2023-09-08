@@ -8,7 +8,7 @@ const updateDayOfTheWeek = () => {
 
   const getCurrentUTCTime = () => {
     const currentDate = new Date();
-    const currentUTCTime = currentDate.toISOString(); 
+    const currentUTCTime = currentDate.getTime();
     return currentUTCTime;
   }
 
